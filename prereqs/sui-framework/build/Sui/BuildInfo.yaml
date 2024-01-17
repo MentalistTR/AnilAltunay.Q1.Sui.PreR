@@ -1,0 +1,24 @@
+---
+compiled_package_info:
+  package_name: Sui
+  address_alias_instantiation:
+    std: "0000000000000000000000000000000000000000000000000000000000000001"
+    sui: "0000000000000000000000000000000000000000000000000000000000000002"
+  source_digest: 5A6E84FB1A53CBC6CF976C64AD620CC7D30C6E1DD53772651A5B14A6AFB87049
+  build_flags:
+    dev_mode: true
+    test_mode: true
+    generate_docs: true
+    install_dir: "."
+    force_recompilation: false
+    lock_file: ~
+    fetch_deps_only: false
+    skip_fetch_latest_git_deps: false
+    default_flavor: sui
+    default_edition: ~
+    deps_as_root: false
+    silence_warnings: false
+    warnings_are_errors: true
+    additional_named_addresses: {}
+dependencies:
+  - MoveStdlib
